@@ -5,7 +5,7 @@ FROM python:3.9
 WORKDIR /app
 
 # Copy the requirements file into the container
-COPY requirements.txt .
+COPY requirement.txt .
 
 # Install the dependencies
 RUN   pip3 install -r requirement.txt
