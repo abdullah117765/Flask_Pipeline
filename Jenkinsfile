@@ -25,7 +25,7 @@ pipeline {
         stage('Build') {
             steps {
                
-               bat 'pip3 install -r requirement.txt'
+               bat 'runas /user:Administrator "C:\Users\axiom\AppData\Local\Microsoft\WindowsApps\pip3.exe install -r requirement.txt" '
 
                 
             }
