@@ -25,7 +25,7 @@ pipeline {
         stage('Build') {
             steps {
                
-               bat 'pip3 install --user -r requirement.txt'
+               bat 'pip3 install -r requirement.txt'
 
                 
             }
